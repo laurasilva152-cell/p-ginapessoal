@@ -1,74 +1,125 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Laura-formulário</title>
-
+<head>
+    <title>Pagina Pessoal: Laura da Silva </title>
+</head>
 <style>
-body{
-	font-family: Arial, sans-serief;
-	background-color: #ADD8E6;
-	padding: 20px;
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-.caixa-formulario{
-	width: 400px;
-	margin: 0 auto;
-	
-	background-color: #F0F8FF;
-	border: 1px solid #cccccc;
-	padding: 25px;
-}
-h1{
-     text-align: center;
-	 color: #333;
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
 }
 
-p{
-	text-align: center;
-    color: #555;
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
 }
 
-label,
-input,
-textarea,
-button{
-	 display: block;
+
+header h1 {
+    margin-bottom: 10px;
 }
-label{
-	margin-top: 15px;
-	margin-bottom: 5px;
-	font-weight: bold;
+
+
+nav ul {
+    list-style: none;
+} 
+
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
 }
-input,
-textarea{
-	padding: 8px
+
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
 }
-button{
-	margin-top: 20px;
-	padding: 10px;
+
+
+section {
+    margin: 20px 0;
 }
+section#sobre, 
+section#projetos, 
+section#contato {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+}
+
+
 </style>
-    </head>
-    <body>
- <div class="caixa-formulario">
+<body>
+    <header>
+        <h1>Laura da Silva</h1>
+        <nav>
+            <ul>
+                <li><a href="#sobre">Sobre Mim</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
 
-        <h1>Formulário</h1>
-		<p>Deixe aqui a sua dúvida</p>
-		
-		<form>
-		
-		<label for="nome-usuario"> 1.Nome:</label>
-		<input type="text" id="nome-usuario" placeholder="digite aqui seu nome">
-			
-		<label for="email"> 2.Email:</label>
-		<input type="text" id="email" placeholder="digite seu email">
-		
-		<label for="msg-usuario"> 3.Mensagem:</label>
-		<textarea id="msg-usuario"></textarea>
-		
-		<button type="submit">Enviar</button>
-		
-		</form>
-		    </div>
-    </body>
+
+    <section id="sobre">
+        <h2>Sobre Mim</h2>
+        <p>Sou Aluna da escola Fídeles Antônio Fantin eu gosto de ouvir música, assistir séries,
+        jogar video game, e passar tempo com a minha cadela e mexer no celular adoro viajar e 
+        
+
+
+          conhecimento e criar projetos que ajudam as pessoas a aprender e crescer.</p>
+    </section>
+
+
+    <section id="projetos">
+        <h2>Projetos</h2>
+        <ul>
+            <li>Projeto 1: <a href="#">Descrição do Projeto 1</a></li>
+            <li>Projeto 2: <a href="#">Descrição do Projeto 2</a></li>
+            <li>Projeto 3: <a href="#">Descrição do Projeto 3</a></li>
+              <li>Projeto 2: <a href="#">Descrição do Projeto 2</a></li>
+            <li>Projeto 3: <a href="#">Descrição do Projeto 3</a></li>
+                        <li>Projeto 3: <a href="#">Descrição do Projeto 3</a></li>
+              <li>Projeto 2: <a href="#">Descrição do Projeto 2</a></li>
+            <li>Projeto 3: <a href="#">Descrição do Projeto 3</a></li>
+        </ul>
+    </section>
+
+
+    <section id="contato">
+        <h2>Contato</h2>
+        <p>Entre em contato comigo via <a href="mailto:e-mail@gmail.com">e-mail@gmail.com</a>.</p>
+    </section>
+
+
+    <footer>
+        <p>&copy; @2025 - Fulano de Tal</p>
+    </footer>
+</body>
 </html>
+
+
+

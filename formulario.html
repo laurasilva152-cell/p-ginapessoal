@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Laura-formulário</title>
+
+<style>
+body{
+	font-family: Arial, sans-serief;
+	background-color: #ADD8E6;
+	padding: 20px;
+}
+
+.caixa-formulario{
+	width: 400px;
+	margin: 0 auto;
+	
+	background-color: #F0F8FF;
+	border: 1px solid #cccccc;
+	padding: 25px;
+}
+h1{
+     text-align: center;
+	 color: #333;
+}
+
+p{
+	text-align: center;
+    color: #555;
+}
+
+label,
+input,
+textarea,
+button{
+	 display: block;
+}
+label{
+	margin-top: 15px;
+	margin-bottom: 5px;
+	font-weight: bold;
+}
+input,
+textarea{
+	padding: 8px
+}
+button{
+	margin-top: 20px;
+	padding: 10px;
+}
+</style>
+    </head>
+    <body>
+ <div class="caixa-formulario">
+
+        <h1>Formulário</h1>
+		<p>Deixe aqui a sua dúvida</p>
+		
+		<form>
+		
+		<label for="nome-usuario"> 1.Nome:</label>
+		<input type="text" id="nome-usuario" placeholder="digite aqui seu nome">
+			
+		<label for="email"> 2.Email:</label>
+		<input type="text" id="email" placeholder="digite seu email">
+		
+		<label for="msg-usuario"> 3.Mensagem:</label>
+		<textarea id="msg-usuario"></textarea>
+		
+		<button type="submit">Enviar</button>
+		
+		</form>
+		    </div>
+    </body>
+</html>
